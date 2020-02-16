@@ -1,1 +1,77 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Renata's portifolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="screen and (max-width: 600px )" href="smallscreen.css"> 
+	<link rel="stylesheet" media="screen and (min-width: 601px)" href="css.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Amiri|Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="topNav">
+		<a class="withHover" href="#contactsID" target="_self">Contact</a>
+		<a class="withHover" href="#divAboutId" target="_self">About</a>
+		<a class="withHover" href="#projectsID" target="_self">Projects</a>
+		<img id="myLogoId" class="myLogo" src="assets/Mylogo.png" alt="RMF logo">
+	</div>
+	<header>
+	<div class="topHeader">
+		<img id="headerPhotoId" class="headerPhoto" src="./assets/computer.jpg" alt="Macbook computer and a hand">
+			<!--
+		<button type="button" class="headerButton" href="#">Contact</button>
+		<button type="button" class="headerButton" href="#">Projects</button>-->
+	</div>
+	</header>
+	<div class="divBlocks">
+		<div class="blockOfColorWhite"></div>
+		<div class="blockOfColorBlue1"></div>
+		<div class="blockOfColorBlue2" >
+			<h1 class="colorTexth1">Renata M. Freitas</h1>
+			<h2 class="colorTexth2">Full Stack Developer with a passion of not knowing things</h2>
+		</div>
+	</div>
+	<div class="trianguleblue2"></div>
+	<div class="projectsDiv" >
+	<h3 id="projectsID">Projects</h3>
+		<div class="projectsContainer">
+			<a href="https://codepen.io/RMiriuk/full/jONBNwN" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/v1566643285/Portifolio/Thumbnail_n7cd5g.jpg" alt="Marcus Aurelius Tribute"  class="photoProject project1"></a>
+			<a href="https://codepen.io/RMiriuk/full/YMeGeK"target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 2" class="photoProject project2"></a>
+			<a href="https://codepen.io/RMiriuk/full/VNyYjZ" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 3" class="photoProject project3"></a>
+
+
+		</div>
+	</div>
+
+	<div id="divAboutId" class="divAbout">
+		<h3>About</h3>
+		<div class="aboutImgP">
+			<img src="assets/PhotoMe copy.jpg" alt="Photo of Renata Freitas" class="aboutImg">
+			<img src="assets/PhotoMe copy.jpg" alt="Photo of Renata Freitas" class="smallAboutImg">
+			<p class="aboutText">
+				I'm a FlatIron Software Engineer Bootcamp grad, 
+				I've worked (and fell in love) with Ruby, Ruby on Rails, JavaScript, Node.js and React.
+				<br/>
+				I originally intended to be a plane pilot (I do have 62h in a Cessna 152), but my love for creating things made me realise I still hadn't found my passion, 
+				but when I moved to London I had the chance to participate to an intro to HTML and CSS workshop, 
+				which started a long process of me trying to learn by myself and finally enrolling on a bootcamp to speed the process a little bit.
+				<br/>
+				I love not knowing what I'm doing, getting head first on a new project. 
+				 </p>
+		</div>
+		<div class="blockOfColorBlue3"></div>
+	</div>
+
+	<div class="divContact" id="contactsID">
+		<div class="div2contact">
+			<h3 class="contactClass">Contact</h3>
+			<a href=" mailto: r.miriuk@tutanota.com" class="contactInfo" >r.miriuk@tutanota.com</a>
+			<!-- <p class="contactInfo">Phone: 077007777000</p> -->
+			<p class="contactInfo">Based in London, UK</p>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

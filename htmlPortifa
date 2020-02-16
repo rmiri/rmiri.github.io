@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Renata's portifolio</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css?family=Amiri|Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="topNav">
+		<a class="withHover" href="#contactsID" target="_self">Contact</a>
+		<a class="withHover" href="#divAboutId" target="_self">About</a>
+		<a class="withHover" href="#projectsID" target="_self">Projects</a>
+		<img id="myLogoId" class="myLogo" src="https://res.cloudinary.com/mirir/image/upload/v1566245215/Mylogo_hb3ycw.png" alt="RMF logo">
+	</div>
+	
+	<div class="topHeader">
+		<img id="headerPhotoId" class="headerPhoto" src="https://res.cloudinary.com/mirir/image/upload/v1566245287/computer_q7elsy.jpg" alt="Macbook computer and a hand">
+		<header>
+			<!--
+		<button type="button" class="headerButton" href="#">Contact</button>
+		<button type="button" class="headerButton" href="#">Projects</button>-->
+		</header>
+	</div>	
+	<div class="divBlocks">
+		<div class="blockOfColorWhite"></div>
+		<div class="blockOfColorBlue1"></div>
+		<div class="blockOfColorBlue2" >
+			<h1 class="h1class">Renata M. Freitas</h1>
+			<h2>Part time front-end, full time trying new things</h2>
+		</div>
+	</div>
+	<div class="trianguleblue2"></div>
+	<div class="projectsDiv" >
+	<h3 id="projectsID">Projects</h3>
+		<div class="projectsContainer">
+			<a href="https://codepen.io/RMiriuk/full/jONBNwN" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/v1566643285/Portifolio/Thumbnail_n7cd5g.jpg" alt="Marcus Aurelius Tribute"  class="photoProject project1"></a>
+			<a href="https://codepen.io/RMiriuk/full/YMeGeK"target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 2" class="photoProject project2"></a>
+			<a href="https://codepen.io/RMiriuk/full/VNyYjZ" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 3" class="photoProject project3"></a>
+		</div>
+	</div>
+
+	<div id="divAboutId" class="divAbout">
+		<h3>About</h3>
+		<div class="aboutImgP">
+			<img src="https://res.cloudinary.com/mirir/image/upload/v1566330698/mePhoto_qqwefl.png" alt="Photo of Renata Freitas" class="aboutImg">
+			<p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+		</div>
+		<div class="blockOfColorBlue3"></div>
+	</div>
+
+	<div class="divContact" id="contactsID">
+		<div class="div2contact">
+			<h3 class="contactClass">Contact</h3>
+			<a href=" mailto: notARealEmail@gmail.com" class="contactInfo" >notARealEmail@gmail.com</a>
+			<p class="contactInfo">Phone: 077007777000</p>
+			<p class="contactInfo">Based in London, UK</p>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

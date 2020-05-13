@@ -16,8 +16,8 @@
 		<img id="myLogoId" class="myLogo" src="assets/logo.png" alt="beatle logo">
 	</div>
 	<header>
-	<div class="topHeader">
-		<img id="headerPhotoId" class="headerPhoto" src="./assets/computer.jpg" alt="Macbook computer and a hand">
+	<div class="parallax">
+		<!-- <img id="headerPhotoId" class="headerPhoto" src="./assets/computer.jpg" alt="Macbook computer and a hand"> -->
 			<!--
 		<button type="button" class="headerButton" href="#">Contact</button>
 		<button type="button" class="headerButton" href="#">Projects</button>-->
@@ -35,8 +35,13 @@
 	<div class="projectsDiv" >
 	<h3 id="projectsID">Projects</h3>
 		<div class="projectsContainer">
-			<a href="https://codepen.io/RMiriuk/full/jONBNwN" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/v1566643285/Portifolio/Thumbnail_n7cd5g.jpg" alt="Marcus Aurelius Tribute"  class="photoProject project1"></a>
-			<a href="https://codepen.io/RMiriuk/full/YMeGeK"target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 2" class="photoProject project2"></a>
+			<!-- <a href="https://codepen.io/RMiriuk/full/jONBNwN" target="_blank"> -->
+				<img src="https://res.cloudinary.com/mirir/image/upload/v1566643285/Portifolio/Thumbnail_n7cd5g.jpg" alt="Marcus Aurelius Tribute"  class="photoProject" id="project1" >
+			<!-- </a> -->
+			<!-- <div id="proj1Div" class="projectInfo">SEEEEE MEEEEE</div> -->
+			<img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 2" class="photoProject"  id="project2">
+			<!-- <div id="proj2Div" class="projectInfo">SEEEEE MEEEEE</div> -->
+
 			<a href="https://codepen.io/RMiriuk/full/VNyYjZ" target="_blank"><img src="https://res.cloudinary.com/mirir/image/upload/c_limit,h_768/v1566246771/Project2_copy_qnznam.jpg" alt="My project 3" class="photoProject project3"></a>
 
 
@@ -68,20 +73,32 @@
 				</ul>
 			</div>
 		</div>
-		<div class="blockOfColorBlue3"></div>
 	</div>
 
 	<div class="divContact" id="contactsID">
 		<div class="div2contact">
-			<h3 class="contactClass">Contact</h3>
-			<a href=" mailto: r.miriuk@tutanota.com" class="contactInfo" >r.miriuk@tutanota.com</a>
-			<!-- <p class="contactInfo">Phone: 077007777000</p> -->
-			<p class="contactInfo">Based in London, UK</p>
+			<h3 class="contactClass">Liked what you saw?</h3>
+			<h4>Let's Talk!</h4>
+			<div class="contactLinks">
+				<a href="https://twitter.com/rmiriuk">
+					<img src="assets/twitter.png">
+				</a>
+				<a href="https://github.com/rmiri">
+					<img src="assets/github.png">
+				</a>
+				<a href="https://www.linkedin.com/in/renatamiriuk/">
+					<img src="assets/linkedinIcon.png">
+				</a>
+
+			</div>
+				<a href=" mailto: r.miriuk@tutanota.com" class="contactInfo" >r.miriuk@tutanota.com</a>
+				<!-- <p class="contactInfo">Phone: 077007777000</p> -->
+				<!-- <p class="contactInfo">Based in London, UK</p> -->
 		</div>
 	</div>
 
 
 
-
+	<script src="index.js"></script>
 </body>
 </html>

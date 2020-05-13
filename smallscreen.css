@@ -218,6 +218,10 @@ header {
 	margin-top: 10vh;
 	color: #222;
 }
+.stack li{
+	color: #222;
+	font-family: 'Amiri', serif;
+}
 .blockOfColorBlue3{
 	display: none;
 }
@@ -236,11 +240,29 @@ header {
 	font-size: 1.2em;
 	color: #222;
 }
-
+.div2contact h4 {
+	font-size: 1em;
+	color: #222;
+}
 .contactInfo{
 	font-size: 0.9em;
 	color: white;
 }
 
+.contactLinks {
+	margin-top: 5vh;
+	/* background-color: cadetblue; */
+}
+.contactLinks img{
+	max-width: 2.5em;
+}
+.contactLinks a{
+	margin: 1em;
+}
 
+.contactInfo{
+	font-size: 1.4em;
+	color: white;
+	margin: 1em;
+}
 

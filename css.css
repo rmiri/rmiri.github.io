@@ -21,7 +21,7 @@ body {
 	height: 100%;
 	position: absolute;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Comfortaa', cursive;
 }
 
@@ -38,7 +38,7 @@ p, a {
 	top: 0px;
 	width: 100%;
 	box-shadow: 0 -2px 6px 0 rgba(0,0,0,.2);
-	height: 60px;
+	height: 80px;
 	/*remember to change the value for z index later*/
 	z-index: 100;
 }
@@ -46,7 +46,7 @@ p, a {
 	float: right;
 	color: grey;
 	text-align: center;
-	padding: 20px 45px;
+	padding: 33px 45px;
 	text-decoration: none;
 	font-size: 17px;
 	/*margin-right: 17px;*/
@@ -178,7 +178,7 @@ header button{
 	top: 0;
 	width: 0; 
 	height: 0; 
-	border-right: : 0 solid transparent;
+	border-right: 0 solid transparent;
 	border-left: 100vw solid transparent;
 	border-top: 35vh solid #CDF8F3;
 }
@@ -243,11 +243,32 @@ header button{
 	display: none;
 }
 .aboutText {
-	height: 30vh;
+	/* height: 25vh; */
 	width: 65vw;
-	position: right;
+	/* position: right; */
 	font-size: 1.2em;
 	margin-top: 10vh;
+}
+
+.stack{
+	display: flexbox;
+	height: 100%;
+}
+.stack::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.stack ul {
+	list-style: none;
+}
+.stack li{
+	font-size: 1.2em;
+}
+.stackLanguages{
+	float: left;
+	width: 33%;
+	padding: 5px;
 }
 .blockOfColorBlue3{
 	background-color: #4B7E78;

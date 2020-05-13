@@ -11,7 +11,7 @@ proj1.addEventListener('click', ()=> {
     } else {
         proj1div.className = 'projectInfo'
     }
- 
+ alert('hi')
 })
 
 proj2.addEventListener('mouseover',() => {

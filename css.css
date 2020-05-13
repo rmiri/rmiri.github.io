@@ -197,10 +197,12 @@ header button{
 	border-left: 100vw solid transparent;
 	border-top: 35vh solid #CDF8F3;
 }
+
+/*  ---------------- Projects ----------------   */
+
 .projectsDiv {
 	position: static;
 	margin-top: -20vh;
-
 }
 .projectsDiv h3{
 	margin-left: 10vw;
@@ -209,35 +211,50 @@ header button{
 
 .projectsContainer{
 	position: relative;
-	text-align: center;
-	margin-right: -10px;
+	margin-bottom: 10vh;
+	/* text-align: center; */
+	margin-left: 10vw;
+	overflow-y: auto;
 }
 
-.photoProject {
-  	overflow: hidden;
+.photoDiv{
+	float: left;
+	overflow: hidden;
 	max-width: 250px;
- 	width: 20vw;
-  	height: auto;
-	margin: 0 10px;
+	width:  200px;
+	height: 200px;
+	margin: 0 10px 30px 0;
 	text-align: center;
 	border-radius: 1em;
 	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.photoProject:hover {
-	box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.1);
-	transition: box-shadow 0.3s ease-in-out;
+.photoProject {
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
 }
 .projectInfo{
-	display: none;
-	width: 100px;
-	height: 100px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: tomato;
 }
+.photoDiv:hover .projectInfo {
+	box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.1);
+	transition: box-shadow 0.3s ease-in-out;
+	opacity: 1;
+
+}
+
 .projectInfoShow{
 	display: block;
-	width: 200px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 	background-color: brown;
+	z-index: 50;
 }
 .divAbout h3 {
 	margin-top: 100px;

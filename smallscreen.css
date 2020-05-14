@@ -156,7 +156,7 @@ header {
 	top: 73vh;
 	width: 0; 
 	height: 0; 
-	border-right: : 0 solid transparent;
+	border-right: 0 solid transparent;
 	border-left: 100vw solid transparent;
 	border-top: 7vh solid #CDF8F3;
 }

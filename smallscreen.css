@@ -18,11 +18,12 @@ h1, h2, h3 {
 	color: #222;
 }
 
-p, a {
+p {
 	font-family: 'Amiri', serif;
 	margin-left: 10vw;
 }
 a {
+	font-family: 'Amiri', serif;
 	text-decoration: none;
 	
 }
@@ -159,27 +160,88 @@ header {
 	border-left: 100vw solid transparent;
 	border-top: 7vh solid #CDF8F3;
 }
+
+/* ----------Projects --------- */
 .projectsDiv {
 	position: static;
 	margin-top: -20vh;
 }
+
 .projectsDiv h3{
 	margin-left: 10vw;
 	padding-top: 10vh;
 	font-size: 1.2em;
 	color: #222;
 }
+
 .projectsContainer{
 	display: inline-block;
+	overflow-y: auto;
 }
+
+.photoDiv{
+	/* float: left; */
+	overflow: hidden;
+	position: relative;
+	margin-left: 10vw;
+	margin-bottom: 2em;
+	max-width: 80vw;
+	height: auto;
+	/* overflow-y: auto; */
+}
+
 .photoProject {
- 	width: 30vw;
-  	height: auto;
-	margin: 10px;
+ 	width: auto;
+  	height: 200px;
+	/* margin: 10px; */
 	text-align: center;
 	border-radius: 5px;
 	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+} 
+.projectInfo > * {
+	opacity: 1;
 }
+.projectInfo{
+	background-color: #4B7E78;
+	display: none;
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+	z-index: 1000;
+	/* margin-right: 200px; */
+	padding-bottom: 5vh;
+}
+
+.text{
+	font-size: 1em;
+	text-align: left;
+	font-family: 'Amiri', serif;
+	color: lightgray;
+
+}
+.text a {
+	color: white;
+	width: 100%;
+	float: left;
+	margin-left: 10vw;	
+}
+.text p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.text h4 {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+}
+/* -------------- About ------------ */
 
 .divAbout {
 	/*background-color: #CDF8F3;*/
@@ -225,6 +287,10 @@ header {
 .blockOfColorBlue3{
 	display: none;
 }
+
+
+
+/* --------- Contact ------------ */
 .divContact{
 	/*height: 100vh;*/
 	background-color: #4B7E78;

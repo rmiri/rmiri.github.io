@@ -1,5 +1,5 @@
 # portifolio-page
-Trying to code my first portifolio page.
 
-It's still in the early stages and there is a lot to do, but you can check how it looks on my Codepen page:
-https://codepen.io/RMiriuk/full/zYOBbGb
+Simple portfolio page to showcase some of my projects.
+
+You can see what I have been doing on my [Medium](https://medium.com/@r.miriuk) account, or just follow me on [twitter](https://twitter.com/rmiriuk)

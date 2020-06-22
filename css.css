@@ -29,7 +29,7 @@ p {
 	font-family: 'Amiri', serif;
 	margin-left: 10vw;
 }
-a {
+a, li, ul {
 	font-family: 'Amiri', serif;
 	text-decoration: none;
 }
@@ -321,6 +321,23 @@ header button{
 	margin-bottom: 2.3em;
 }
 
+/* -------------  Blog ---------------- */
+
+.divBlog {
+	background-color:#CDF8F3;
+	padding-top: 15vh;
+	min-height: 60vh;
+	padding-bottom: 15vh;
+}
+.divBlog > * {
+	padding-left: 20px;
+	margin-left: 10vw;
+	font-size: 1.1em;
+}
+.divBlog h3 {
+	/* margin-top: 100px; */
+	font-size: 2em;
+}
 
 /* -------------- About --------------- */
 .divAbout h3 {
@@ -388,6 +405,8 @@ header button{
 	width: 100vw;
 	margin-left: -11.62vw;
 } */
+
+/* --------- Contact ------------ */
 .divContact{
 	height: 70vh;
 	background-color: #4B7E78;
@@ -417,6 +436,26 @@ header button{
 	margin: 1em;
 }
 
+.resume {
+	vertical-align: top;
+	border-radius:28px;
+	border:1px solid white;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	/* font-family:Arial; */
+	font-size:17px;
+	padding:0px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #375e59;
+}
+.resume:hover {
+	background-color:#375e59;
+}
+.resume:active {
+	position:relative;
+	top:1px;
+}
 .contactInfo{
 	font-size: 1.4em;
 	color: white;

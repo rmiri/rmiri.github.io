@@ -1,7 +1,8 @@
 :root {
 	--main-bg-color: #081E3C;
 	/* var(--main-bg-color) */
-	--bg-gray-color:linear-gradient(#ACACAC, #e7e7e7);
+	--bg-gray-color:linear-gradient(#283158, #ffffff);
+	--bg-gray-color: #283158a2;
 	/* var(--bg-gray-color) */
   }
 
@@ -267,9 +268,13 @@ header button{
 .photoProject {
 	width: auto;
 	height: 100%;
-	object-fit: cover;
+	/* object-fit: cover; */
 	/* transition: .5s ease; */
 	/* backface-visibility: hidden; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 50%; */
 }
 .projectInfo{
 	background-color: var(--main-bg-color); opacity: 0.9;;

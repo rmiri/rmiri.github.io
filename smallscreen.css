@@ -1,3 +1,11 @@
+:root {
+	--main-bg-color: #081E3C;
+	/* var(--main-bg-color) */
+	--bg-gray-color:linear-gradient(#ACACAC, #e7e7e7);
+	/* var(--bg-gray-color) */
+  }
+
+
 html{
 	width: 100%;
 	height: 100%;
@@ -46,9 +54,9 @@ ul {
 	float: right;
 	color: #888;
 	text-align: center;
-	padding: 1em 0.4em;
+	padding: 0.8em 0.4em;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 0.85em;
 	/*margin-right: 17px;*/
 	margin: 0px 17px 0 0;
 	font-family: 'Comfortaa', cursive;
@@ -68,12 +76,13 @@ header {
 	width: 100vw;
 }
 .parallax {
-	background-image: url("assets/computer.jpg");
+	background-image: url("assets/london.jpg");
 	height: 45vh;
-	background-attachment: scroll;
-	background-position: center;
+	max-width: 100vw;
+	/* background-attachment: scroll;
+	background-position: center; */
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: auto 100%;
   }
 /* .topHeader { */
 	/*width: 100vw;*/
@@ -92,7 +101,7 @@ header {
 	/*height: 100%;*/
 }
 .blockOfColorWhite{
-	position: absolute;
+	/* position: absolute;
 	top: -65vh;
 	width: 0; 
 	height: 0; 
@@ -100,7 +109,7 @@ header {
 	border-right: 0em  solid transparent;
 	border-bottom: 5vh solid white;
 	margin: auto;
-	z-index: 1;
+	z-index: 1; */
 
 	/*overflow: hidden;
 	background-color: white;
@@ -120,14 +129,14 @@ header {
 	height: 0; 
 	border-left: 0 solid transparent;
 	border-right: 100vw solid transparent;
-	border-bottom: 7vh solid #CDF8F3;
+	border-bottom: 7vh solid var(--main-bg-color);
 	margin: auto;
 	z-index: 3;
 }
 .blockOfColorBlue2{
 	position: absolute;
 	top: -57vh;
-	background-color: #CDF8F3;
+	background-color: var(--main-bg-color);
 	height: 30vh;
 	width: 100vw;
 	z-index: 2;
@@ -152,7 +161,7 @@ header {
 	height: 0; 
 	border-right: 0 solid transparent;
 	border-left: 100vw solid transparent;
-	border-top: 7vh solid #CDF8F3;
+	border-top: 7vh solid var(--main-bg-color);
 }
 
 /* --------- Action Text ------------ */
@@ -180,6 +189,10 @@ header {
 	position:relative;
 	/* top:-0.14em; */
 	left:10px;
+}
+
+.colorTexth1{
+	color: white;
 }
 
 /* ----------Projects --------- */
@@ -223,7 +236,7 @@ header {
 	opacity: 1;
 }
 .projectInfo{
-	background-color: #4B7E78;
+	background-color: var(--main-bg-color);
 	display: none;
 	/* position: absolute; */
 	height: 100%;
@@ -265,20 +278,20 @@ header {
 /* -------------- About ------------ */
 
 .divAbout {
-	/*background-color: #CDF8F3;*/
+	/*background-color: var(--main-bg-color);*/
 	/*padding-left: 20px;*/
 	/*height: 100vh;
 	margin-left: 10vw;*/
 	/*width: 100vw;*/
-		background-color: #4B7E78;
-			padding-bottom: 10vh;
+	background-color: var(--main-bg-color);
+	padding-bottom: 10vh;
 }
 .divAbout h3 {
 	margin-top: 10vh;
 	font-size: 1.2em;
 	margin-left: 10vw;
 	padding-top: 10vh;
-	color: #222;
+	color: whitesmoke;
 }
 .aboutImgP {
 	display: inline;
@@ -299,10 +312,10 @@ header {
 	/*position: right;*/
 	font-size: 1em;
 	margin-top: 10vh;
-	color: #222;
+	color: whitesmoke;
 }
 .stack li{
-	color: #222;
+	color: whitesmoke;
 	font-family: 'Amiri', serif;
 }
 .blockOfColorBlue3{
@@ -314,7 +327,7 @@ header {
 /* --------- Contact ------------ */
 .divContact{
 	/*height: 100vh;*/
-	background-color: #4B7E78;
+	background-color: var(--main-bg-color);
 	margin-top: -10vh;
 	padding-bottom: 20vh;
 }
@@ -325,15 +338,17 @@ header {
 }
 .div2contact h3 {
 	font-size: 1.2em;
-	color: #222;
+	color: whitesmoke;
 }
 .div2contact h4 {
 	font-size: 1em;
-	color: #222;
+	color: whitesmoke;
+	font-family: 'Comfortaa', cursive;
 }
 .contactInfo{
 	font-size: 0.9em;
 	color: white;
+	
 }
 
 .contactLinks {
@@ -347,6 +362,30 @@ header {
 	margin: 1em;
 }
 
+.contactInfo{
+	font-size: 1.4em;
+	color: white;
+	margin: 1em;
+}
+
+.resume {
+	vertical-align: top;
+	border-radius:28px;
+	border:1px solid white;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	/* font-family:Arial; */
+	font-size:17px;
+	padding:0px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #375e59;
+}
+
+.resume:active {
+	position:relative;
+	top:1px;
+}
 .contactInfo{
 	font-size: 1.4em;
 	color: white;

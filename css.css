@@ -1,3 +1,11 @@
+:root {
+	--main-bg-color: #081E3C;
+	/* var(--main-bg-color) */
+	--bg-gray-color:linear-gradient(#ACACAC, #e7e7e7);
+	/* var(--bg-gray-color) */
+  }
+
+
 html{
 	width: 100%;
 	height: 100%;
@@ -86,10 +94,10 @@ display: none;
 }
 .parallax {
 	/* The image used */
-	background-image: url("assets/computer.jpg");
+	background-image: url("assets/london.jpg");
   
 	/* Set a specific height */
-	height: 80vh;
+	height: 100vh;
   
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -133,7 +141,7 @@ header button{
 	height: 30%;
 }
 .blockOfColorWhite{
-	position: absolute;
+	/* position: absolute;
 	top: -42vh;
 	width: 0; 
 	height: 0; 
@@ -141,7 +149,7 @@ header button{
 	border-right: 0em  solid transparent;
 	border-bottom: 27vh solid white;
 	margin: auto;
-	z-index: 1;
+	z-index: 1; */
 
 	/*overflow: hidden;
 	background-color: white;
@@ -161,14 +169,15 @@ header button{
 	height: 0; 
 	border-left: 0 solid transparent;
 	border-right: 100vw solid transparent;
-	border-bottom: 35vh solid #CDF8F3;
+	/* border-bottom: 35vh solid #CDF8F3;  */
+	border-bottom: 35vh solid var(--main-bg-color);
 	margin: auto;
 	z-index: 3;
 }
 .blockOfColorBlue2{
 	position: absolute;
 	top: 0;
-	background-color: #CDF8F3;
+	background-color: var(--main-bg-color);
 	height: 30vh;
 	width: 100%;
 	z-index: 2;
@@ -188,7 +197,7 @@ header button{
 	height: 0; 
 	border-right: 0 solid transparent;
 	border-left: 100vw solid transparent;
-	border-top: 35vh solid #CDF8F3;
+	border-top: 35vh solid var(--main-bg-color);
 }
 
 /* ------------ Action text ------------- */
@@ -216,6 +225,10 @@ header button{
 	position:relative;
 	/* top:-0.14em; */
 	left:10px;
+}
+
+.colorTexth1{
+	color: white;
 }
 
 /*  ---------------- Projects ----------------   */
@@ -259,7 +272,7 @@ header button{
 	/* backface-visibility: hidden; */
 }
 .projectInfo{
-	background-color: #4B7E78;
+	background-color: var(--main-bg-color); opacity: 0.9;;
 
 	position: absolute;
 	display: block;
@@ -316,7 +329,7 @@ header button{
 .text h4{
 	/* text-align: left; */
 	font-size: 1.5em;
-	color: #3d3d3d;
+	color: white;
 	font-weight: bold;
 	margin-bottom: 2.3em;
 }
@@ -324,7 +337,7 @@ header button{
 /* -------------  Blog ---------------- */
 
 .divBlog {
-	background-color:#CDF8F3;
+	background: var(--bg-gray-color);
 	padding-top: 15vh;
 	min-height: 60vh;
 	padding-bottom: 15vh;
@@ -337,6 +350,7 @@ header button{
 .divBlog h3 {
 	/* margin-top: 100px; */
 	font-size: 2em;
+	color: white;
 }
 
 /* -------------- About --------------- */
@@ -409,7 +423,7 @@ header button{
 /* --------- Contact ------------ */
 .divContact{
 	height: 70vh;
-	background-color: #4B7E78;
+	background-color: var(--main-bg-color);
 	/* margin-top: 10vh; */
 }
 .div2contact {
@@ -418,11 +432,11 @@ header button{
 }
 .div2contact h3 {
 	font-size:2em;
-	color: #222;
+	color: whitesmoke;
 }
 .div2contact h4{
 	font-size: 1.5em;
-	color: #222;
+	color: whitesmoke;
 }
 .contactLinks {
 	margin-top: 15vh;
@@ -450,7 +464,7 @@ header button{
 	text-shadow:0px 1px 0px #375e59;
 }
 .resume:hover {
-	background-color:#375e59;
+	/* background-color:var; */
 }
 .resume:active {
 	position:relative;

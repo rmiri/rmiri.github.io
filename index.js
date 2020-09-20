@@ -1,8 +1,4 @@
-// const proj1 = document.getElementById('project1')
-// const proj1div = document.getElementById('proj1Div')
 
-// const proj2 = document.getElementById('project2')
-// const proj2div = document.getElementById('proj2Div')
 
 const photoDiv = document.getElementsByClassName('photoDiv')
 const projectInfo = document.getElementsByClassName('projectInfo')
